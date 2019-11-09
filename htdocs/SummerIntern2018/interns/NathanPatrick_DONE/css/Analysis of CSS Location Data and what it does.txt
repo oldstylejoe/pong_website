@@ -1,0 +1,1 @@
+in Main.CSS, p.lead chooses the color for the "WHO AM I" first layer of Body Text.

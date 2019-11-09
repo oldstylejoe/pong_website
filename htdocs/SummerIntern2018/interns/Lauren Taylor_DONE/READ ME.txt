@@ -1,0 +1,2 @@
+Lauren's photo and video don't load automatically unless you press the "Home" button once it's in a browser. I don't know what that's about or how to fix it.
+-Sarah

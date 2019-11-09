@@ -1,0 +1,48 @@
+#AuthType Basic
+#AuthName "My Protected Area"
+#AuthUserFile /var/www/neurogaming/.htpasswd
+#Require valid-user
+# BEGIN WordPress
+
+Redirect 301 /intern/cameronvega-brightenburg https://camvegab.wixsite.com/website
+Redirect 301 /intern/laurentaylor https://lauren-taylor.wixsite.com/website
+Redirect 301 /intern/lawsonpritchard https://lawson4242.wixsite.com/website
+Redirect 301 /intern/madelineyee https://yeemadeline13.wixsite.com/website
+Redirect 301 /intern/nicholasasaro https://nickasaro.wixsite.com/home
+Redirect 301 /intern/shanestewart https://sstewart207.wixsite.com/shanestewartwebsite
+Redirect 301 /intern/victorchacon https://victorchacon735.wixsite.com/mysite
+
+Redirect 301 /intern/alexanderbuchanan /SummerIntern2018/interns/AlexanderBuchanan/portfolio/index.html
+Redirect 301 /intern/brandonsimmons /SummerIntern2018/interns/BrandonSimmons_DONE/index.html
+Redirect 301 /intern/christopherrosenbaum /SummerIntern2018/interns/ChrisRosenbaum/CRosenbaum/home.html
+Redirect 301 /intern/coreypritts /SummerIntern2018/interns/CoreyPritts/index.html
+Redirect 301 /intern/danielwright /SummerIntern2018/interns/DanielWright_DONE/Website.html
+Redirect 301 /intern/gileadcosman /SummerIntern2018/interns/GileadCosman_DONE/GileadCosmanWebpage/index.htm
+Redirect 301 /intern/jarrettkoran /SummerIntern2018/interns/JarrettKoran_DONE/resumeweb.html
+Redirect 301 /intern/kevinmckinnis /SummerIntern2018/interns/KevinMcKinnis_DONE/index.html
+Redirect 301 /intern/naseembaramki-azar /SummerIntern2018/interns/NaseemBaramki-Azar/motion/index.html
+Redirect 301 /intern/nathanpatrick /SummerIntern2018/interns/NathanPatrick_DONE/index.html
+Redirect 301 /intern/sethposner /SummerIntern2018/interns/SethPosner/about.html
+Redirect 301 /intern/stephenairy /SummerIntern2018/interns/StephenAiry/index.html
+Redirect 301 /intern/stephenkay /SummerIntern2018/interns/StephenKay_DONE/index.html
+Redirect 301 /intern/thomascircle /SummerIntern2018/interns/ThomasCircle_DONE/Thomas-Home.html
+Redirect 301 /intern/torstenjorgensen /SummerIntern2018/interns/TorstenJorgensen_DONE/index.html
+
+Redirect 301 /intern/jamespearl /SummerIntern2018/interns/JamesPearl/index.html
+
+Redirect 301 /intern/fionagibson "SummerIntern2019/interns/Fiona_Gibson Intern/index.html" 
+Redirect 301 /intern/jasonfreedman "SummerIntern2019/interns/Jason_Freedman Intern/JasonFreedman8543.html" 
+Redirect 301 /intern/samijalel https://www.linkedin.com/in/sami-j-581163b5/ 
+Redirect 301 /intern/TonyRummani https://www.linkedin.com/in/tony-rummani-12877118a/ 
+Redirect 301 /intern/galenatostaeva https://www.linkedin.com/in/gelana-tostaeva-914451127/ 
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress

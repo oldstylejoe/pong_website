@@ -1,0 +1,1 @@
+This is a PRE-ALPHA *WORK IN PROGRESS*!  My knowledge of coding is limited, however I want to be careful that I don't allow various styles, scripts, etc. to add too much bloat to the page.

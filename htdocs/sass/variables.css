@@ -1,0 +1,42 @@
+/*
+Error: Invalid CSS after "...               ": expected expression (e.g. 1px, bold), was "#232023333;"
+        on line 216 of /Applications/MAMP/htdocs/pong-center/sass/variables.scss
+
+211: $youtube:                  #C4302B;
+212: $vimeo:                    #86C9EF;
+213: $aim:                      #FCD20B;
+214: $yahoo:                    #720E9E;
+215: $email3:                   #6567A5;
+216: $macstore:                 #232023333;
+217: $myspace:                  #666666;
+218: $podcast:                  #E4B21B;
+219: $cloudapp:                 #525557;
+220: $dropbox:                  #3D9AE8;
+221: $ebay:                     #89C507;
+
+Backtrace:
+/Applications/MAMP/htdocs/pong-center/sass/variables.scss:216
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/scss/parser.rb:1278:in `expected'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/script/lexer.rb:231:in `expected!'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/script/parser.rb:724:in `assert_expr'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/script/parser.rb:68:in `parse'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/scss/parser.rb:1134:in `sass_script'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/scss/parser.rb:642:in `variable'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/scss/parser.rb:696:in `block_child'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/scss/parser.rb:689:in `block_contents'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/scss/parser.rb:137:in `stylesheet'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/scss/parser.rb:41:in `parse'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/engine.rb:414:in `_to_tree'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/engine.rb:290:in `render'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/exec/sass_scss.rb:400:in `run'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/exec/base.rb:52:in `parse'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/lib/sass/exec/base.rb:19:in `parse!'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/rubygems/gems/sass-3.5.3/bin/sass:13:in `<top (required)>'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/bin/sass:37:in `load'
+/Applications/Adobe Dreamweaver CC 2018/Adobe Dreamweaver CC 2018.app/Contents/Resources/gems/bin/sass:37:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...               \": expected expression (e.g. 1px, bold), was \"#232023333;\"\A         on line 216 of /Applications/MAMP/htdocs/pong-center/sass/variables.scss\A \A 211: $youtube:                  #C4302B;\A 212: $vimeo:                    #86C9EF;\A 213: $aim:                      #FCD20B;\A 214: $yahoo:                    #720E9E;\A 215: $email3:                   #6567A5;\A 216: $macstore:                 #232023333;\A 217: $myspace:                  #666666;\A 218: $podcast:                  #E4B21B;\A 219: $cloudapp:                 #525557;\A 220: $dropbox:                  #3D9AE8;\A 221: $ebay:                     #89C507;"; }

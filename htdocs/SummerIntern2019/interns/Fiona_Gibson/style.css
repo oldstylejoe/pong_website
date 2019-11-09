@@ -1,0 +1,34 @@
+::selection{background-color:rgb(52, 223, 151); color:rgb(35, 5, 206);}
+body {
+  background-color:#E3DAC9
+}
+h1 {
+  text-align:center;
+  margin-right:4%;
+  margin-left:4%;
+  background-color:#C19A6B;
+  color:#555D50;
+}
+h3 {
+  text-align:center;
+  font-family:Times;
+}
+#intern {
+  text-align:right;
+  color:#123524;
+  padding: 3px;
+  margin-left:25%;
+  margin-right:10px;
+  background-color:#8A9A5B;
+  border:2px solid #674C47;
+  margin-top:4px;
+}
+#education {
+  padding:3px;
+  margin-right:25%;
+  margin-left:10px;
+  margin-bottom:4px;
+  background-color:#C2B280;
+  color:#635147;
+  border: 2px solid #704214;
+}
