@@ -1,0 +1,44 @@
+.divider-full {background:#fbb141!important; height:4px;}
+.hthin h1, .hthin h2, .hthin h3, .hthin h4, .hthin h5   {font-weight:400 !important;}
+h4 {font-size:20px!important;}
+.greybg {background:#f7f7f7!important;}
+.orng {color:#ed6e2e!important;}
+.orngbg {color:#ed6e2e!important;}
+.dark #copyrights  {background-color:#232023!important; color:#817882!important;}
+#copyrights a {color:#fff!important;}
+	#copyrights a:hover {color:#fbb141!important;}
+
+.team h5 {margin:0!important;padding:0!important;}
+
+
+.button-prpl {
+  background-color: #473c47;
+  color: #fff;
+  text-shadow: none !important;
+	
+}
+
+
+#page-title {
+position: relative;
+padding: 50px 0;
+background:url(../images/bg-headerint.jpg) center center no-repeat;
+border-bottom: 1px solid #EEE;
+}
+#page-title h1 {color:#fff!important;}
+#page-title span {color:#c9c2cc!important;}
+
+.team h5, .team p {padding:0 15px 0 15px!important;}
+
+.modal1 h4 {margin:0!important;padding:0!important;}
+.modal1 p {text-align: justify!important; padding-bottom:15px!important;}
+p.modal-title  { margin:0 auto 0px auto!important; text-align:center!important;}
+
+.tales {
+  width: 100%;
+}
+
+.carousel-inner img {
+  margin: auto;
+}
+
